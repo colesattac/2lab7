@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">TSN_DEMO_17_Fragments</string>
+    <string name="welcomeText">Вас приветствует система быстрого анкетирования</string>
+    <string name="beginButton">Начать</string>
+    <string name="topic">Тема - ОС Windows</string>
+    <string name="exit">Выход</string>
+    <string name="exit_desc">Выйти из приложения?</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+    <string name="question1">Лучшая версия Windows по вашему мнению:</string>
+    <string name="question2">Какой дизайн вам больше по душе?</string>
+    <string name="question3">Какое у вас образование:</string>
+    <string name="winXP">Windows XP</string>
+    <string name="win7">Windows 7</string>
+    <string name="win8">Windows 8/8.1</string>
+    <string name="win10">Windows 10</string>
+    <string name="win11">Windows 11</string>
+    <string name="luna">Luna (Windows XP)</string>
+    <string name="aero">Aero (Windows 7)</string>
+    <string name="metro">Metro (Windows 8-10)</string>
+    <string name="fluent">Fluent Design (Windows 11)</string>
+    <string name="назад">Назад</string>
+    <string name="далее">Далее</string>
+    <string name="спасибо">Спасибо что воспользовались нашей системой!</string>
+    <string name="заново">Заново</string>
+</resources>
