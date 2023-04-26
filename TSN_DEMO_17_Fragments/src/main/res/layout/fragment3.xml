@@ -44,41 +44,53 @@
             <RadioButton
                 android:id="@+id/radioButton1"
                 android:layout_width="match_parent"
-                android:layout_height="48dp"
+                android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:button="@drawable/icon_winxp"
+                android:background="@drawable/custom_radio_selector"
+                android:button="@color/colorTransparent"
+                android:drawableTop="@drawable/icon_winxp"
                 android:text="@string/luna"
-                android:textColor="@color/colorWhite" />
+                android:textAlignment="center"
+                android:textColor="@drawable/custom_radio_text" />
 
             <RadioButton
                 android:id="@+id/radioButton2"
                 android:layout_width="match_parent"
-                android:layout_height="48dp"
+                android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:button="@drawable/icon_win7"
+                android:background="@drawable/custom_radio_selector"
+                android:button="@color/colorTransparent"
+                android:drawableTop="@drawable/icon_win7"
                 android:text="@string/aero"
-                android:textColor="@color/colorWhite"
-                android:layout_marginTop="10dp" />
+                android:textAlignment="center"
+                android:textColor="@drawable/custom_radio_text"
+                android:layout_marginTop="10dp"/>
 
             <RadioButton
                 android:id="@+id/radioButton3"
                 android:layout_width="match_parent"
-                android:layout_height="48dp"
+                android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:button="@drawable/icon_win810"
+                android:background="@drawable/custom_radio_selector"
+                android:button="@color/colorTransparent"
+                android:drawableTop="@drawable/icon_win810"
                 android:text="@string/metro"
-                android:textColor="@color/colorWhite"
-                android:layout_marginTop="10dp" />
+                android:textAlignment="center"
+                android:textColor="@drawable/custom_radio_text"
+                android:layout_marginTop="10dp"/>/>
 
             <RadioButton
-                android:id="@+id/radioButton4"
+                android:id="@+id/radioButton5"
                 android:layout_width="match_parent"
-                android:layout_height="48dp"
+                android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:button="@drawable/icon_win11"
+                android:background="@drawable/custom_radio_selector"
+                android:button="@color/colorTransparent"
+                android:drawableTop="@drawable/icon_win11"
                 android:text="@string/fluent"
-                android:textColor="@color/colorWhite"
-                android:layout_marginTop="10dp" />
+                android:textColor="@drawable/custom_radio_text"
+                android:textAlignment="center"
+                android:layout_marginTop="10dp"/>
         </RadioGroup>
 
         <LinearLayout
